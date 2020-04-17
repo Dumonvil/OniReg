@@ -48,9 +48,10 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Erruer", Toast.LENGTH_SHORT).show();
                     //Log.e(TAG, "")
                 }else{
-                    Toast.makeText(Login.this, "Success", Toast.LENGTH_SHORT).show();
+
                 }
                 goActivity();
+                Toast.makeText(Login.this, "Success", Toast.LENGTH_SHORT).show();
             }
         });
         //Log.i(TAG,"Attempting to login user" + username);
